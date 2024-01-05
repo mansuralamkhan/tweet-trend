@@ -14,6 +14,22 @@ environment {
                  echo "----------- build complted ----------"
             }
         }
+
+        stage('SonarQube Analysis') {
+
+        environment {
+           scannerHome = tool 'sonar-scanner'
+
+            }
+        steps {
+                
+            withSonarQubeEnv('sonarqube-server') {
+                        // Run the SonarQube analysis
+                        sh "${scannerHome}/bin/sonar-scanner"
+                    }
+                
+            }
+        }
         
         }
 

@@ -13,6 +13,7 @@ environment {
                     deleteDir()
                 }
             }
+        }
         stage("build"){
             steps {
                  echo "----------- build started ----------"

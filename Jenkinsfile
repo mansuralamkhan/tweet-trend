@@ -7,13 +7,7 @@ environment {
     PATH = "/opt/apache-maven-3.9.6/bin:$PATH"
 }
     stages {
-        stage('Cleanup Workspace') {
-            steps {
-                script {
-                    deleteDir()
-                }
-            }
-        }
+        
         stage("build"){
             steps {
                  echo "----------- build started ----------"

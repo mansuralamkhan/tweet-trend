@@ -1,0 +1,18 @@
+# Application
+/src/ @mansuralamkhan
+
+# CI/CD
+/Jenkinsfile @mansuralamkhan
+/.github/ @mansuralamkhan
+
+# Container
+/Dockerfile @mansuralamkhan
+
+# Kubernetes / deployment
+/*.yaml @mansuralamkhan
+/deployment.yaml @mansuralamkhan
+/service.yaml @mansuralamkhan
+/namespace.yaml @mansuralamkhan
+
+# Dependency/build definition
+/pom.xml @mansuralamkhan

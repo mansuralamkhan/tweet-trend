@@ -6,3 +6,4 @@ The test contains test cases.
 It also contains pom.xml which has all dependencies and artifact name and version
 
 testing branch protection
+testing branch protection
